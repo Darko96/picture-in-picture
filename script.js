@@ -40,7 +40,9 @@ button.addEventListener("click", async () => {
   // Reset Button
   // Ponovo aktiviramo dugme
   button.disabled = false;
-  console.log("daa");
+  // Dakle kada se prvi put klikne na dugme, dugme ce onda biti disabled
+  // Tek kada se prikaze video onda vracamo dugme da bude enabled
+  // sto ce omoguciti da izlazimo iz video i da ponovo ulazimo
 });
 
 // On Load
